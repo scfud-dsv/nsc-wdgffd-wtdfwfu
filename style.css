@@ -24,6 +24,6 @@
         font-size: 24px;
     }
 }
-
-    .auto-link {
-body.no-scroll { overflow: hidden; }
+ 
+:ml-text[overflow]
+    body.no-scroll { overflow: hidden; } /* 禁止页面滚动 */
