@@ -11,19 +11,22 @@
     text-decoration: none;
 }
 
-.auto-link {
+/* 移除重复的.auto-link选择器 */
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     -webkit-text-size-adjust: 100%; /* 防止调整文字大小 */
 }
 
-.auto-link {
-    @media screen and (max-width: 400px) {
+/* 修正媒体查询语法 */
+@media screen and (max-width: 400px) {
     .auto-link {
         font-size: 24px;
     }
 }
- 
-.auto-link
-    body.no-scroll { overflow: hidden; } /* 禁止页面划滚动 */
+
+/* 禁止页面划滚动 */
+body.no-scroll { 
+    overflow: hidden; 
+}
