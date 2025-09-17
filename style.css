@@ -11,7 +11,6 @@
     text-decoration: none;
 }
 
-/* 移除重复的.auto-link选择器 */
 body {
     margin: 0;
     padding: 0;
@@ -19,14 +18,12 @@ body {
     -webkit-text-size-adjust: 100%; /* 防止调整文字大小 */
 }
 
-/* 修正媒体查询语法 */
 @media screen and (max-width: 400px) {
     .auto-link {
         font-size: 24px;
     }
 }
 
-/* 禁止页面划滚动 */
 body.no-scroll { 
-    overflow: hidden; 
+    overflow: hidden; /* 禁止页面划滚动 */
 }
