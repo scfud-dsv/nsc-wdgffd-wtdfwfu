@@ -19,8 +19,11 @@
 }
 
 .auto-link {
-@media screen and (max-width: 400px) {
+    @media screen and (max-width: 400px) {
     .auto-link {
         font-size: 24px;
     }
 }
+
+    .auto-link {
+body.no-scroll { overflow: hidden; }
